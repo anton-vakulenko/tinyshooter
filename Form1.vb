@@ -1,4 +1,4 @@
-﻿'    Copyright (C) 2017 Anton Vakulenko 
+﻿'   Copyright (C) 2017 Anton Vakulenko 
 '    e-mail: anton.vakulenko@gmail.com
 '
 '    This file is part of TinyShooter.
@@ -15,6 +15,9 @@
 '
 '    You should have received a copy of the GNU General Public License
 '    along with TinyShooter.  If not, see <http://www.gnu.org/licenses/>.
+
+' ********************TODO:**************************
+' com порт открываем-закрываем только в начале тиканья
 
 Imports System.IO.Ports
 Imports System.Threading
@@ -38,6 +41,7 @@ Public Class Form1
     Dim strStatus As String = "Mirror" ' initial status for timer1_tick procedure
 #End Region
 
+' Эту форму убрать - окрываем закрываем в начала тиканья
     Private Sub Form1_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
         ' close serial port
         If SerialPort1.IsOpen = True Then SerialPort1.Close()
