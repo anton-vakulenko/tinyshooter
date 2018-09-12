@@ -50,6 +50,8 @@ Public Class Form1
     Private Sub Form1_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         ' getting total session time 
         TimeLeft()
+    
+    ' проработать пустой путь сохранения
         ' if user didn't enter path for saving images we use application folder
         If My.Settings.Path = "" Then My.Settings.Path = Application.StartupPath
         ' get com port name from our settings
@@ -69,11 +71,11 @@ Public Class Form1
     Public Function ConnectCamera() As String
         ' function for connecting to camera
         ' set public variable blnCameraConnected to true, and returns "OK" if succeed (or any error)
+            ' подумать, можно ли оставить только одну из переменных    
 
         ' initialize SDK
         Try
             EdsInitializeSDK()
-            'Thread.Sleep(500)
         Catch
             ' not connected
             blnCameraConnected = False
@@ -156,12 +158,14 @@ Public Class Form1
             ' let's prepare for it
 
             ' update statusbar
-            LabelStatus.Text = "Status: Starting session..."
+            'LabelStatus.Text = "Status: Starting session..."
 
             ' do we need to download images from camera to pc?
             If My.Settings.Download = True Then
                 ' looks like we do
                 ' so, do we need to connect camera?
+                                            ' если мы хотим сохранять кадры, что подключаемся к камере, иначе - нет                            
+                                            ' конечно, нужно вовремя отключать камеру
                 If blnCameraConnected = False Then
                     ' trying to connect
                     Dim strCamera As String = ConnectCamera()
@@ -189,7 +193,7 @@ Public Class Form1
                     Exit Sub
                 End Try
             End If
-
+                                                
             If SerialPort1.IsOpen = False Then
                 ' com port closed
                 MsgBox("Com-port is closed." & vbCrLf & "Check com-port settings in 'Options' and restart application.", MsgBoxStyle.Information)
