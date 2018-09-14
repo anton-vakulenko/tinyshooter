@@ -8,11 +8,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-RS-232 serial port or USB-to-serial port adapter cable using RTS or DTS line. DIY examples of such cables could be found [here](http://www.beskeen.com/projects/dslr_serial/dslr_serial.shtml). 
+RS-232 serial port or USB-to-serial port adapter cable using RTS or DTS line. DIY examples of such cables could be found [here](http://www.beskeen.com/projects/dslr_serial/dslr_serial.shtml).
 
-Working [PHD2](https://openphdguiding.org/)
+[Microsoft .NET Framework 3.5](https://www.microsoft.com/en-US/download/details.aspx?id=22)
 
-[Microsoft .NET Framework 3.5](https://www.microsoft.com/en-US/download/details.aspx?id=22).
+[PHD2](https://openphdguiding.org/) (for interframe dithering feature only)
+
+Edsdk.dll from [Canon EDSDK](https://www.didp.canon-europa.com/) (for saving to PC feature only)
 
 ### Installing
 
