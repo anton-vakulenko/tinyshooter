@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 RS-232 serial port or USB-to-serial port adapter cable using RTS or DTS line. DIY examples of such cables could be found [here](http://www.beskeen.com/projects/dslr_serial/dslr_serial.shtml). 
 
-Microsoft .NET Framework 3.5+ to run (could be obtained [here]https://www.microsoft.com/en-US/download/details.aspx?id=22 free of charge). 
+Microsoft .NET Framework 3.5+ (could be obtained [here](https://www.microsoft.com/en-US/download/details.aspx?id=22) free of charge.
 
 ### Installing
 
