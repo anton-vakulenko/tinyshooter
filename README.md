@@ -8,8 +8,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Requires RS-232 serial port or USB-to-serial port adapter cable using RTS or DTS line. DIY examples of such cables could be found <a href="http://www.beskeen.com/projects/dslr_serial/dslr_serial.shtml" target="_blank">here</a>. 
-Requires Microsoft .NET Framework 3.5+ to run (could be obtained <a href="https://www.microsoft.com/en-US/download/details.aspx?id=22" traget="_blank">here</a> free of charge). 
+RS-232 serial port or USB-to-serial port adapter cable using RTS or DTS line. DIY examples of such cables could be found [here](http://www.beskeen.com/projects/dslr_serial/dslr_serial.shtml). 
+
+Microsoft .NET Framework 3.5+ to run (could be obtained [here]https://www.microsoft.com/en-US/download/details.aspx?id=22 free of charge). 
 
 ### Installing
 
@@ -28,26 +29,6 @@ until finished
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
@@ -75,7 +56,7 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. Portions of this code copyrighted by <a href="https://www.didp.canon-europa.com/developer/didp/didp_cfg.nsf/webpages/Terms+and+Conditions" target="_blank">Canon</a>
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. Portions of this code copyrighted by [Canon](https://www.didp.canon-europa.com/developer/didp/didp_cfg.nsf/webpages/Terms+and+Conditions)
 
 ## Acknowledgments
 
