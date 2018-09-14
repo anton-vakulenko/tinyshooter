@@ -50,7 +50,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Anton Vakulenko ** - *Initial work* - [PurpleBooth](https://github.com/anton-vakulenko)
+* **Anton Vakulenko** - *Initial work* - [anton-vakulenko](https://github.com/anton-vakulenko)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
