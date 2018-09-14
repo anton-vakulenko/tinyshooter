@@ -42,7 +42,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-[Visual Studio Express](https://visualstudio.microsoft.com/ru/vs/express/)
+[Visual Studio Express 2008](https://visualstudio.microsoft.com/ru/vs/express/)
 
 ## Contributing
 
@@ -50,7 +50,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Anton Vakulenko ** - *Initial work* - [PurpleBooth](https://github.com/anton-vakulenko)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
