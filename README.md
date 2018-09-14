@@ -8,6 +8,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
+Theoretically any modern DSLR camera with Bulb port (saving to PC works on Canon EOS only). 
+
 RS-232 serial port or USB-to-serial port adapter cable using RTS or DTS line. DIY examples of such cables could be found [here](http://www.beskeen.com/projects/dslr_serial/dslr_serial.shtml).
 
 [Microsoft .NET Framework 3.5](https://www.microsoft.com/en-US/download/details.aspx?id=22)
