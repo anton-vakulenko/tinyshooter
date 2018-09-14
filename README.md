@@ -1,6 +1,6 @@
 # TinyShooter
 
-Simple GUI utility for shooting astrophoto with DSLR cameras. Supports dithering (via <a href="https://openphdguiding.org/">PHD2</a>) and saving images to PC (Canon EOS only). 
+Simple GUI utility for shooting astrophoto with DSLR cameras. Supports dithering (via [PHD2](https://openphdguiding.org/)) and saving images to PC (Canon EOS only). 
 
 ## Getting Started
 
@@ -10,7 +10,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 RS-232 serial port or USB-to-serial port adapter cable using RTS or DTS line. DIY examples of such cables could be found [here](http://www.beskeen.com/projects/dslr_serial/dslr_serial.shtml). 
 
-Microsoft .NET Framework 3.5+ (could be obtained [here](https://www.microsoft.com/en-US/download/details.aspx?id=22) free of charge.
+Working [PHD2](https://openphdguiding.org/)
+
+[Microsoft .NET Framework 3.5](https://www.microsoft.com/en-US/download/details.aspx?id=22).
 
 ### Installing
 
