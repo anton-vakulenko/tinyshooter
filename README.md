@@ -42,6 +42,7 @@ Add additional notes about how to deploy this on a live system
 
 * [CodeBlocks 17.12](http://www.codeblocks.org/)
 * [TDM-GCC MinGW Compiler](http://tdm-gcc.tdragon.net/)
+* [ResEdit is 1.6.6](http://www.resedit.net/)
 
 ## Contributing
 
