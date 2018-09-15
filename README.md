@@ -12,8 +12,6 @@ Theoretically any modern DSLR camera with Bulb port (saving to PC works on Canon
 
 RS-232 serial port or USB-to-serial port adapter cable using RTS or DTS line. DIY examples of such cables could be found [here](http://www.beskeen.com/projects/dslr_serial/dslr_serial.shtml).
 
-[Microsoft .NET Framework 3.5](https://www.microsoft.com/en-US/download/details.aspx?id=22)
-
 [PHD2](https://openphdguiding.org/) (for interframe dithering feature only)
 
 Edsdk.dll from [Canon EDSDK](https://www.didp.canon-europa.com/) (for saving to PC feature only)
@@ -42,7 +40,8 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-[Visual Studio Express 2008](https://visualstudio.microsoft.com/ru/vs/express/)
+[CodeBlocks 17.12](http://www.codeblocks.org/)
+[TDM-GCC MinGW Compiler](https://sourceforge.net/projects/tdm-gcc/files/TDM-GCC%20Installer/tdm-gcc-5.1.0-3.exe/download)
 
 ## Contributing
 
@@ -50,7 +49,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-**Anton Vakulenko** - *Initial work* - [anton-vakulenko](https://github.com/anton-vakulenko)
+[**Anton Vakulenko**](https://github.com/anton-vakulenko) - *Initial work*
 
 ## License
 
