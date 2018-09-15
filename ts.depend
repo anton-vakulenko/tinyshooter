@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1537000464 source:d:\code\ts\main.cpp
+	<exception>
+	<iostream>
+	<fstream>
+	<string>
+	<windows.h>
+	<winsock.h>
+	<commctrl.h>
+	<stdio.h>
+	<shlobj.h>
+	"resource.h"
+
+1536172017 d:\code\ts\resource.h
+
+1536338460 source:d:\code\ts\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
