@@ -14,7 +14,7 @@ RS-232 serial port or USB-to-serial port adapter cable using RTS or DTS line. DI
 
 [PHD2](https://openphdguiding.org/) (for interframe dithering feature only)
 
-Edsdk.dll from [Canon EDSDK](https://www.didp.canon-europa.com/) (for saving to PC feature only)
+Edsdk.dll (32-bit version) from [Canon EDSDK](https://www.didp.canon-europa.com/) (for saving to PC feature only)
 
 ### Installing
 
@@ -42,7 +42,7 @@ Add additional notes about how to deploy this on a live system
 
 * [CodeBlocks 17.12](http://www.codeblocks.org/)
 * [TDM-GCC MinGW Compiler](http://tdm-gcc.tdragon.net/)
-* [ResEdit is 1.6.6](http://www.resedit.net/)
+* [ResEdit 1.6.6](http://www.resedit.net/)
 
 ## Contributing
 
