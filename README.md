@@ -40,8 +40,8 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-[CodeBlocks 17.12](http://www.codeblocks.org/)
-[TDM-GCC MinGW Compiler](https://sourceforge.net/projects/tdm-gcc/files/TDM-GCC%20Installer/tdm-gcc-5.1.0-3.exe/download)
+* [CodeBlocks 17.12](http://www.codeblocks.org/)
+* [TDM-GCC MinGW Compiler](http://tdm-gcc.tdragon.net/)
 
 ## Contributing
 
