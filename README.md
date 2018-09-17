@@ -54,11 +54,13 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. Portions of this code copyrighted by [Canon](https://www.didp.canon-europa.com/developer/didp/didp_cfg.nsf/webpages/Terms+and+Conditions) and [c_07](https://www.codeproject.com/script/Membership/View.aspx?mid=2600768)(code from c_07 licensed inder CC BY-SA 2.5 License)
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. Portions of this code copyrighted by [Canon](https://www.didp.canon-europa.com/developer/didp/didp_cfg.nsf/webpages/Terms+and+Conditions) and [c_07](https://www.codeproject.com/script/Membership/View.aspx?mid=2600768) (code from c_07 licensed under CC BY-SA 2.5 License)
 
 ## Acknowledgments
 
 * Canon for it's SDK and API
 * c_07 for tutorial about coding Windows TCP Sockets
-* Microsoft for it's 
+* Microsoft for it's [docs.microsoft.com](https://docs.microsoft.com/)
+* [Sublihim](https://ru.stackoverflow.com/users/216179/sublihim) for finding stupid bug
+* and everyone who helped on forums answering my questions...
 
