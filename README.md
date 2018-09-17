@@ -23,7 +23,7 @@ OS Windows XP-10 32-64bit
 Edsdk.dll (32-bit version) from [Canon EDSDK](https://www.didp.canon-europa.com/) (for saving to PC feature only).
 You should obtain a copy of Edsdk.dll by yourself applying to Canon Developers Program. I'm not allowed to redistribute this DLL. 
 
-That's all for regular user. For development purposes you should have [CodeBlocks](http://www.codeblocks.org/) (MinGW version) installed.
+That's all for a regular user. For development purposes you should have [CodeBlocks](http://www.codeblocks.org/) (MinGW version) installed.
 
 ### Installing
 
