@@ -16,7 +16,7 @@ RS-232 serial port or USB-to-serial port adapter cable using RTS or DTS line. DI
 
 #### Software
 
-Windows XP 32bit, Windows 7-10 32-64bit
+OS Windows XP-10 32-64bit
 
 [PHD2](https://openphdguiding.org/) (for interframe dithering feature only)
 
