@@ -16,11 +16,12 @@ RS-232 serial port or USB-to-serial port adapter cable using RTS or DTS line. DI
 
 #### Software
 
+Windows XP 32bit, Windows 7-10 32-64bit
+
 [PHD2](https://openphdguiding.org/) (for interframe dithering feature only)
 
-Edsdk.dll (32-bit version) from [Canon EDSDK](https://www.didp.canon-europa.com/) (for saving to PC feature only)
-
-Windows XP 32bit, Windows 7-10 32-64bit
+Edsdk.dll (32-bit version) from [Canon EDSDK](https://www.didp.canon-europa.com/) (for saving to PC feature only).
+You should obtain a copy of Edsdk.dll by yourself applying to Canon Developers Program. I'm not allowed to redistribute this DLL. 
 
 ### Installing
 
@@ -43,10 +44,6 @@ ts.exe
 * [CodeBlocks 17.12](http://www.codeblocks.org/)
 * [TDM-GCC MinGW Compiler](http://tdm-gcc.tdragon.net/)
 * [ResEdit 1.6.6](http://www.resedit.net/)
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
