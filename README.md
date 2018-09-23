@@ -41,6 +41,11 @@ Run ts.exe:
 ts.exe
 ```
 
+Application's main window will appear just after that. If you run TinyShooter for the first time, it's wise to check settings. Press "Settings" button and you'll see application's settings window. There are several items here:
+
+* **Serial port number**. You should enter number of serial port which is connected to shutter cable. Put there only number (just "5", not "Com5").
+* **Mirror settle**. Mirror lock-up always lead to vibrations of your setup. In cheap mounts it could be very strong, on top mounts it could be 
+
 ## Built With
 
 * [CodeBlocks 17.12](http://www.codeblocks.org/)
