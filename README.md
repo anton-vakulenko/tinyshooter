@@ -43,8 +43,22 @@ ts.exe
 
 Application's main window will appear just after that. If you run TinyShooter for the first time, it's wise to check settings. Press "Settings" button and you'll see application's settings window. There are several items here:
 
-* **Serial port number**. You should enter number of serial port which is connected to shutter cable. Put there only number (just "5", not "Com5").
-* **Mirror settle**. Mirror lock-up always lead to vibrations of your setup. In cheap mounts it could be very strong, on top mounts it could be 
+* **Serial port number**. You should enter number of serial port to which shutter cable is connected. Put there only digits (for example "5", not "Com5").
+
+* **Mirror settle**. Mirror lock-up always leads to vibrations. With cheap mounts it could be very strong, with high-end mounts - insignificant. Five seconds would be enough for most situations. If you have very stable mount or telescope with very short focal length, you could reduce this value. Please note, zero is not accepted here.
+
+* **Pause**. Duration of pause between frames. Pause reduces thermal noise of DSLR camera. Duration of pause shouldn't be shorter then duration of dithering process. Default value is 30 seconds. Please note, zero is not accepted here.
+
+* **Dither amount**. Optimal value for this parameter is strongly related with focal length of main and guiding scopes and with pixel sizes of main and guiding cameras. Default value is 3 pixels.
+
+* **Download images to PC**. This option is for 
+
+* **Path to download images from camera**.
+
+* **Exposure**.
+* **Repeat**.
+* **Start after**.
+* **Dither**.
 
 ## Built With
 
