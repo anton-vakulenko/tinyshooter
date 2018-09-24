@@ -21,7 +21,7 @@ OS Windows XP-10 32-64bit
 [PHD](http://www.stark-labs.com/phdguiding.html) or [PHD2](https://openphdguiding.org/) (for interframe dithering feature only)
 
 EDSDK.dll (32-bit version) from [Canon EDSDK](https://www.didp.canon-europa.com/) (for saving to PC feature only).
-You should obtain a copy of Edsdk.dll by yourself applying to Canon Developers Program. I'm not allowed to redistribute this DLL. 
+You should obtain a copy of EDSDK.dll by yourself applying to Canon Developers Program. I'm not allowed to redistribute this DLL. 
 
 That's all for a regular user. For development purposes you should have [CodeBlocks](http://www.codeblocks.org/) (MinGW version) installed.
 
@@ -45,27 +45,29 @@ Application's main window will appear just after that. If you run TinyShooter fo
 
 * **Serial port number**. You should enter number of serial port to which shutter cable is connected. Put there only digits (for example "5", not "Com5").
 
-* **Mirror settle**. Mirror lock-up always leads to vibrations. With cheap mounts it could be very strong, with high-end mounts - insignificant. Five seconds would be enough for most situations. If you have very stable mount or telescope with very short focal length, you could reduce this value. Please note, zero is not accepted here.
+* **Mirror settle**. Mirror lock-up always leads to vibration. With cheap mounts it could be very strong, with high-end mounts - insignificant. Five seconds would be enough for most situations. If you have very stable mount or telescope with very short focal length, you could reduce this value. Please note, zero is not accepted here.
 
 * **Pause**. Duration of pause between frames. Pause reduces thermal noise of DSLR camera. Duration of pause shouldn't be shorter then duration of dithering process. Default value is 30 seconds. Please note, zero is not accepted here.
 
 * **Dither amount**. Optimal value for this parameter is strongly related with focal length of main and guiding scopes and with pixel sizes of main and guiding cameras. Default value is 3 pixels.
 
-* **Download images to PC**. Check this option if you have Canon EOS camera and want to save images directly on your PC. To use this option you have to put EDSDK.dll to folder with TinyShooter. As I said earlier, you should obtain a copy of EDSDK.dll by yourself applying to Canon Developers Program. I'm not allowed to redistribute this DLL. 
+* **Download images to PC**. Check this option if you have Canon EOS camera and want to save images directly on your PC. To use this option you have to put EDSDK.dll to folder with TinyShooter. You should obtain a copy of EDSDK.dll by yourself applying to Canon Developers Program. I'm not allowed to redistribute this DLL. 
 
-* **Path to download images from camera**. Press "Browse" button and choose folder to store images. It's better to avoid non-English characters it the path.
+* **Path to download images from camera**. Press "Browse" button and choose folder to store images. It's better to avoid non-latin characters it the path.
 
-That's all for Settings. Press "Save" button now. Of course, you can change setting again anytime you want. You may notice that "Save" button sometimes is inactive. This happens when you left some field empty. 
+That's all for Settings. Press "Save" button now. Of course, you can change setting again anytime you want. You may notice that "Save" button sometimes is inactive. This happens when you left one or more fields empty. 
 
-Now you are almost ready to start shooting. But before you should check values in main window:
+Now you are almost ready to start shooting. But before that you should check values in application's main window:
 
-* **Exposure**. Enter the exposure of a single frame in seconds. Please note, zero is not accepted here.
+* **Exposure**. Enter the duration of a single frame in seconds. Please note, zero is not accepted here.
 
 * **Repeat**. Enter how many frames do you want to shoot. Please note, zero is not accepted here.
 
-* **Start after**. If you want to start shooting after some time, enter value in minutes to this field. This is usefull if 
+* **Start after**. If you want to delay shooting for some period of time, enter value in *minutes* to this field. This is usefull feature to start session at specific time. To begin session immediately after pressing "Start" button, leave zero in this field (default value).
 
-* **Dither**.
+* **Dither**. Check this box to activate dithering. This feature requires PHD or PHD2 with server enabled.
+
+To start shooting press "Start" button. Just after that name of this button will change to "Stop". Pressing on it will abort shooting proccess on any stage.
 
 ## Built With
 
