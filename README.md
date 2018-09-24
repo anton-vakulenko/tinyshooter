@@ -67,7 +67,7 @@ Now you are almost ready to start shooting. But before that you should check val
 
 * **Dither**. Check this box to activate dithering. This feature requires PHD or PHD2 with server enabled.
 
-To start shooting press "Start" button. Just after that name of this button will change to "Stop". Pressing on it will abort shooting proccess on any stage.
+To start shooting press "Start" button. You may notice that "Start" button sometimes is inactive. This happens when you left one or more fields empty. Just after pressing "Start" button, it's name will change to "Stop". Pressing on it will abort shooting proccess on any stage.
 
 ## Built With
 
