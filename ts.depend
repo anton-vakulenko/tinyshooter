@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1537000464 source:d:\code\ts\main.cpp
+1537638640 source:d:\code\ts\main.cpp
 	<exception>
 	<iostream>
 	<fstream>
@@ -8,12 +8,26 @@
 	<winsock.h>
 	<commctrl.h>
 	<stdio.h>
+	<ctime>
 	<shlobj.h>
 	"resource.h"
+	"EDSDK.h"
+	"EDSDKErrors.h"
+	"EDSDKTypes.h"
 
-1536172017 d:\code\ts\resource.h
+1537632435 d:\code\ts\resource.h
 
-1536338460 source:d:\code\ts\resource.rc
+1431576772 d:\code\ts\edsdk.h
+	<CoreFoundation/CoreFoundation.h>
+	<windows.h>
+	"EDSDKTypes.h"
+	"EDSDKErrors.h"
+
+1431576772 d:\code\ts\edsdktypes.h
+
+1431576772 d:\code\ts\edsdkerrors.h
+
+1537632430 source:d:\code\ts\resource.rc
 	<windows.h>
 	<commctrl.h>
 	<richedit.h>
