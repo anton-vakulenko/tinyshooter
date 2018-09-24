@@ -51,13 +51,20 @@ Application's main window will appear just after that. If you run TinyShooter fo
 
 * **Dither amount**. Optimal value for this parameter is strongly related with focal length of main and guiding scopes and with pixel sizes of main and guiding cameras. Default value is 3 pixels.
 
-* **Download images to PC**. This option is for 
+* **Download images to PC**. Check this option if you have Canon EOS camera and want to save images directly on your PC. To use this option you have to put EDSDK.dll to folder with TinyShooter. As I said earlier, you should obtain a copy of EDSDK.dll by yourself applying to Canon Developers Program. I'm not allowed to redistribute this DLL. 
 
-* **Path to download images from camera**.
+* **Path to download images from camera**. Press "Browse" button and choose folder to store images. It's better to avoid non-English characters it the path.
 
-* **Exposure**.
-* **Repeat**.
-* **Start after**.
+That's all for Settings. Press "Save" button now. Of course, you can change setting again anytime you want. You may notice that "Save" button sometimes is inactive. This happens when you left some field empty. 
+
+Now you are almost ready to start shooting. But before you should check values in main window:
+
+* **Exposure**. Enter the exposure of a single frame in seconds. Please note, zero is not accepted here.
+
+* **Repeat**. Enter how many frames do you want to shoot. Please note, zero is not accepted here.
+
+* **Start after**. If you want to start shooting after some time, enter value in minutes to this field. This is usefull if 
+
 * **Dither**.
 
 ## Built With
