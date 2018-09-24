@@ -12,13 +12,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 Theoretically any modern DSLR camera with Bulb port (saving to PC works on Canon EOS only). 
 
-RS-232 serial port or USB-to-serial port adapter cable using RTS or DTS line. DIY examples of such cables could be found [here](http://www.beskeen.com/projects/dslr_serial/dslr_serial.shtml).
+RS-232 serial port or USB-to-serial port adapter cable using RTS or DTS line. DIY examples of such cables are [here](http://www.beskeen.com/projects/dslr_serial/dslr_serial.shtml).
 
 #### Software
 
 OS Windows XP-10 32-64bit
 
-[PHD](http://www.stark-labs.com/phdguiding.html) or [PHD2](https://openphdguiding.org/) (for interframe dithering feature only)
+[PHD](http://www.stark-labs.com/phdguiding.html) or [PHD2](https://openphdguiding.org/) (for dithering feature only)
 
 EDSDK.dll (32-bit version) from [Canon EDSDK](https://www.didp.canon-europa.com/) (for saving to PC feature only).
 You should obtain a copy of EDSDK.dll by yourself applying to Canon Developers Program. I'm not allowed to redistribute this DLL. 
@@ -53,21 +53,21 @@ Application's main window will appear just after that. If you run TinyShooter fo
 
 * **Download images to PC**. Check this option if you have Canon EOS camera and want to save images directly on your PC. To use this option you have to put EDSDK.dll to folder with TinyShooter. You should obtain a copy of EDSDK.dll by yourself applying to Canon Developers Program. I'm not allowed to redistribute this DLL. 
 
-* **Path to download images from camera**. Press "Browse" button and choose folder to store images. It's better to avoid non-latin characters it the path.
+* **Path to download images from camera**. Press "Browse" button and choose folder to store images. It's better to avoid non-Latin characters it the path.
 
 That's all for Settings. Press "Save" button now. Of course, you can change setting again anytime you want. You may notice that "Save" button sometimes is inactive. This happens when you left one or more fields empty. 
 
-Now you are almost ready to start shooting. But before that you should check values in application's main window:
+Now you are almost ready to start shooting. However, before that you should check values in application's main window:
 
 * **Exposure**. Enter the duration of a single frame in seconds. Please note, zero is not accepted here.
 
-* **Repeat**. Enter how many frames do you want to shoot. Please note, zero is not accepted here.
+* **Repeat**. Enter how many frames you want to shoot. Please note, zero is not accepted here.
 
-* **Start after**. If you want to delay shooting for some period of time, enter value in *minutes* to this field. This is usefull feature to start session at specific time. To begin session immediately after pressing "Start" button, leave zero in this field (default value).
+* **Start after**. If you want to delay shooting for some period, enter value in *minutes* to this field. This is useful feature to start session at specific time. To begin session immediately after pressing "Start" button, leave zero in this field (default value).
 
 * **Dither**. Check this box to activate dithering. This feature requires PHD or PHD2 with server enabled.
 
-To start shooting press "Start" button. You may notice that "Start" button sometimes is inactive. This happens when you left one or more fields empty. Just after pressing "Start" button, it's name will change to "Stop". Pressing on it will abort shooting proccess on any stage.
+To start shooting press "Start" button. You may notice that "Start" button sometimes is inactive. This happens when you left one or more fields empty. Just after pressing "Start" button, it's name will change to "Stop". Pressing on it will abort shooting process on any stage.
 
 ## Built With
 
